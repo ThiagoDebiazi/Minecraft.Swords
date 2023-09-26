@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://example.com/fontawesome/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+
+    <title>Minecraft Swords</title>
+</head>
+
+<body>
+    <header>
+        <div class="divHeader">
+            <h1>Minecraft Swords</h1>
+            <h3>Infos</h3>
+        </div>
+    </header>
+
+
+    <div class="Calculadora1">
+        <h1>Calculadora de Dano</h1>
+        <h3>Selecione seus items:</h3>
+    </div>
+    <div class="container">
+        <div class="Calculadora">
+            <h1>Espada</h1>
+            <select class="botoes" name="Espada">
+                <option selected value="">Selecione uma espada</option>
+                <option value="madeira">Espada de madeira</option>
+                <option value="pedra">Espada de pedra</option>
+                <option value="ferro">Espada de ferro</option>
+                <option value="ouro">Espada de ouro</option>
+                <option value="diamante">Espada de diamante</option>
+            </select>
+
+        </div>
+        <div class="Calculadora">
+            <h1>Encantamentos</h1>
+            <select class="botoes" name="Encantamento">
+                <option selected value="">Selecione um encantamento</option>
+                <option value="afiacao">Afiação</option>
+                <option value="ruinadosartropodes">Ruína dos Artrópodes</option>
+                <option value="julgamento">Julgamento</option>
+            </select>
+        </div>
+        <div class="Calculadora">
+            <h1>Nível</h1>
+            <select class="botoes" name="Nivel">
+                <option selected value="">Nível do encantamento</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <button class="calcular" onclick="calcularENotificar()">Calcular</button>
+        <div class="Dano">
+            <h1>Dano</h1>
+            <div class="result"></div>
+        </div>
+    </div>
+    <footer>
+        <h1>Made by ThiagoDebiazi :]</h1>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,86 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("./assets/pxfuel.jpg.jpg");
+    font-family: 'Minecraft', sans-serif;
+}
+
+header {
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    color: black;
+    text-shadow: none;
+}
+
+.botoes {
+    background-color: #d8d1d1;
+    height: 25px;
+    margin-top: 25px;
+}
+
+
+body:not(header) {
+    color: #949393;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.calcular {
+
+    height: 25px;
+    margin-top: auto;
+    background-color: #d8d1d1;
+    transition: 1s;
+    border: 1px solid rgb(97, 97, 97);
+    text-align: center;
+
+}
+
+.result {
+    margin-top: 60px;
+    border: 2px solid #eee;
+    height: 25px;
+    text-align: center;
+}
+
+.calcular:hover {
+    background-color: #949393;
+}
+
+.divHeader {
+    background-color: #eee;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Calculadora {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+
+.Calculadora1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+footer {
+    margin-top: 550px;
+    margin-left: 60px;
+}
