@@ -36,12 +36,13 @@
                 <option value="ferro">Espada de ferro</option>
                 <option value="ouro">Espada de ouro</option>
                 <option value="diamante">Espada de diamante</option>
+                <option value="netherite">Espada de netherite</option>
             </select>
 
         </div>
         <div class="Calculadora">
             <h1>Encantamentos</h1>
-            <select class="botoes" name="Encantamento">
+            <select class="botoes" name="EncantamentoEspada">
                 <option selected value="">Selecione um encantamento</option>
                 <option value="afiacao">Afiação</option>
                 <option value="ruinadosartropodes">Ruína dos Artrópodes</option>
@@ -50,7 +51,7 @@
         </div>
         <div class="Calculadora">
             <h1>Nível</h1>
-            <select class="botoes" name="Nivel">
+            <select class="botoes" name="NivelEspada">
                 <option selected value="">Nível do encantamento</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -59,10 +60,50 @@
                 <option value="5">5</option>
             </select>
         </div>
-        <button class="calcular" onclick="calcularENotificar()">Calcular</button>
+        <button class="calcular" onclick="calcularENotificarE()">Calcular</button>
         <div class="Dano">
             <h1>Dano</h1>
-            <div class="result"></div>
+            <div class="resultE"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="Calculadora">
+            <h1>Machado</h1>
+            <select class="botoes" name="Machado">
+                <option selected value="">Selecione um Machado</option>
+                <option value="madeira">Machado de madeira</option>
+                <option value="pedra">Machado de pedra</option>
+                <option value="ferro">Machado de ferro</option>
+                <option value="ouro">Machado de ouro</option>
+                <option value="diamante">Machado de diamante</option>
+                <option value="netherite">Machado de netherite</option>
+            </select>
+
+        </div>
+        <div class="Calculadora">
+            <h1>Encantamentos</h1>
+            <select class="botoes" name="EncantamentoMachado">
+                <option selected value="">Selecione um encantamento</option>
+                <option value="afiacao">Afiação</option>
+                <option value="ruinadosartropodes">Ruína dos Artrópodes</option>
+                <option value="julgamento">Julgamento</option>
+            </select>
+        </div>
+        <div class="Calculadora">
+            <h1>Nível</h1>
+            <select class="botoes" name="NivelMachado">
+                <option selected value="">Nível do encantamento</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <button class="calcular" onclick="calcularENotificarM()">Calcular</button>
+        <div class="Dano">
+            <h1>Dano</h1>
+            <div class="resultM"></div>
         </div>
     </div>
     <footer>
