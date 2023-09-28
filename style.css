@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-image: url("./assets/pxfuel.jpg.jpg");
     font-family: 'Minecraft', sans-serif;
+    background-size: cover;
 }
 
 header {
@@ -16,9 +17,17 @@ header {
 }
 
 .botoes {
-    background-color: #d8d1d1;
-    height: 25px;
+    background-color: #8d8585;
+    height: 55px;
+    width: 300px;
     margin-top: 25px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: medium;
+    padding-left: 40px;
 }
 
 
@@ -30,7 +39,7 @@ body:not(header) {
 .calcular {
 
     height: 25px;
-    margin-top: auto;
+    margin-top: 120px;
     background-color: #d8d1d1;
     transition: 1s;
     border: 1px solid rgb(97, 97, 97);
@@ -38,11 +47,20 @@ body:not(header) {
 
 }
 
-.result {
+.resultE {
     margin-top: 60px;
     border: 2px solid #eee;
     height: 25px;
     text-align: center;
+    font-size: larger;
+}
+
+.resultM {
+    margin-top: 60px;
+    border: 2px solid #eee;
+    height: 25px;
+    text-align: center;
+    font-size: larger;
 }
 
 .calcular:hover {
@@ -84,4 +102,16 @@ body:not(header) {
 footer {
     margin-top: 350px;
     margin-left: 60px;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 90px;
+    background-color: #000000a9;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 20px;
 }
