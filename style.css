@@ -49,18 +49,21 @@ body:not(header) {
 
 .resultE {
     margin-top: 60px;
-    border: 2px solid #eee;
+    background-color: #000000a9;
     height: 25px;
     text-align: center;
     font-size: larger;
+    border-top: 10px;
 }
 
 .resultM {
     margin-top: 60px;
-    border: 2px solid #eee;
+    background-color: #000000a9;
     height: 25px;
     text-align: center;
     font-size: larger;
+    border-top: 10px;
+
 }
 
 .calcular:hover {
@@ -114,4 +117,20 @@ footer {
     margin-left: 450px;
     margin-right: 450px;
     border-radius: 20px;
+}
+
+.dpsM {
+    background-color: #000000a9;
+    height: 25px;
+    text-align: center;
+    font-size: larger;
+    border-bottom: 10px;
+}
+
+.dpsE {
+    background-color: #000000a9;
+    height: 25px;
+    text-align: center;
+    font-size: larger;
+    border-bottom: 10px;
 }

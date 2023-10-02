@@ -38,13 +38,14 @@ function calcularENotificarE() {
     const encantamentoSelectRef = document.querySelector('select[name="EncantamentoEspada"]')
     const nivelSelectRef = document.querySelector('select[name="NivelEspada"]')
 
-
     const espadaSelecionada = espadaSelectRef.value
     const encantamentoSelecionado = encantamentoSelectRef.value
     const nivelSelecionado = nivelSelectRef.value
 
     const resultado = calcularDanoE(espadaSelecionada, encantamentoSelecionado, nivelSelecionado)
     document.querySelector('.resultE').innerHTML = resultado
+    const resultadoDPS = calcularDpsE(espadaSelecionada, encantamentoSelecionado, nivelSelecionado)
+    document.querySelector('.dpsE').innerHTML = resultadoDPS
 }
 
 function calcularDanoE(espada, encantamento, nivel, dps) {
@@ -70,13 +71,15 @@ function calcularENotificarM() {
     const encantamentoSelectRef = document.querySelector('select[name="EncantamentoMachado"]')
     const nivelSelectRef = document.querySelector('select[name="NivelMachado"]')
 
-
     const machadoSelecionado = machadoSelectRef.value
     const encantamentoSelecionado = encantamentoSelectRef.value
     const nivelSelecionado = nivelSelectRef.value
 
+
     const resultado = calcularDanoM(machadoSelecionado, encantamentoSelecionado, nivelSelecionado)
     document.querySelector('.resultM').innerHTML = resultado
+    const resultadoDPSM = calcularDpsM(machadoSelecionado, encantamentoSelecionado, nivelSelecionado)
+    document.querySelector('.dpsM').innerHTML = resultadoDPSM
 }
 function calcularDanoM(machado, encantamento, nivel) {
     let dano = danoMachados[machado]
