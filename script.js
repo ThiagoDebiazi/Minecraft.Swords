@@ -48,7 +48,7 @@ function calcularENotificarE() {
     document.querySelector('.dpsE').innerHTML = resultadoDPS
 }
 
-function calcularDanoE(espada, encantamento, nivel, dps) {
+function calcularDanoE(espada, encantamento, nivel,) {
     let dano = danoEspadas[espada]
     switch (encantamento) {
         case "afiacao":
@@ -104,4 +104,4 @@ function calcularDpsM(machado, encantamento, nivel) {
 function calcularDpsE(espada, encantamento, nivel) {
     return (calcularDanoE(espada, encantamento, nivel) * dpsEspada[espada]).toFixed(2)
 }
-console.log(calcularDpsE("madeira", "afiacao", "4"))
+
